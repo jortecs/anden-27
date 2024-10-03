@@ -22,6 +22,7 @@ header {
     padding: 0px;
 }
 
+
 .contenedor {
     background-color: #e6edf7;
     width: 100%;
@@ -99,6 +100,33 @@ main img {
     height: auto;
 }
 
+.hat{
+    display: float;
+    float:100%;
+    float:left;
+}
+.left{
+    display:float;
+    float:left;
+    width:65%;
+    
+}
+.boot{
+    clear:both;
+}
+
+aside{
+    display:float;
+    float:right;
+    width:30%;
+    /* width:200px;
+    height:450px; */
+    /* background: #ffffff; */
+    float:right;
+    /* margin:-8rem;
+    margin-top: -120rem; */
+}
+
 hr {
     border: none;
     border-top: solid 1px #ccc;
@@ -121,12 +149,4 @@ li {
 #titulo-secundario-lista p{
     background-color : #eda0c7;
     color: #d93d8d;
-}
-aside{
-    width:200px;
-    height:450px;
-    background: #ffffff;
-    float:right;
-    margin:-8rem;
-    margin-top: -120rem;
 }

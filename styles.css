@@ -81,7 +81,7 @@ main {
 main h1 {
     font-family: "Corsiva";
     font-size: 35px;
-    width: 60%;
+    width: 90%;
     text-align: center;
     color: #848484;
     margin-bottom: 20px;
@@ -113,6 +113,8 @@ main img {
 }
 .boot{
     clear:both;
+    
+    
 }
 
 aside{
@@ -131,6 +133,16 @@ aside{
     
     
 }
+.lista-articulos li {
+    display: flex; 
+    align-items: center;
+    margin-bottom: 15px; }
+
+    .img-aside {
+        width: 50px; 
+        height: 50px; 
+        margin-right: 10px; 
+    }
 
 hr {
     border: none;
@@ -156,17 +168,19 @@ li {
     color: #d93d8d;
 }
 
+.menu3 {
+    justify-content: space-between;
+    display: flex;
+}
 #avioncito {
     position: fixed;
     bottom: 10px;
     right: 10px;
-
-
 }
-
-
 
 #cotologo-date {
     color: #3399ff;
     text-align: center;
 }
+
+

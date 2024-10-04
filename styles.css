@@ -119,12 +119,17 @@ aside{
     display:float;
     float:right;
     width:30%;
-    /* width:200px;
-    height:450px; */
-    /* background: #ffffff; */
+    
     float:right;
-    /* margin:-8rem;
-    margin-top: -120rem; */
+    
+}
+
+#titulo-secundario-lista {
+    background-color: #eda0c7;
+    color: #d93d8b;
+    text-align: center;
+    
+    
 }
 
 hr {
@@ -149,4 +154,19 @@ li {
 #titulo-secundario-lista p{
     background-color : #eda0c7;
     color: #d93d8d;
+}
+
+#avioncito {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+
+
+}
+
+
+
+#cotologo-date {
+    color: #3399ff;
+    text-align: center;
 }

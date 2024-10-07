@@ -15,15 +15,13 @@ body {
     background-color: #faf7f7;
     font-weight: 100;
 }
-
+ /*//////// MENU SUPERIOR //////////*/
 header {
     justify-content: center;
     text-align: center;
     padding: 0px;
 }
-
-
-.contenedor {
+.menu1 {
     background-color: #e6edf7;
     width: 100%;
     height: 50px;
@@ -31,54 +29,45 @@ header {
     border-bottom: solid #3399ff 3px;    
 }
 
-.contenedor nav ul{
+.menu1 ul{
     margin-top: 15px;
 }
-
-.contenedor nav ul li{
+.menu1 li{
     display: inline;
     justify-content:space-evenly;
     padding:20px;
 }
-
 a {
     text-decoration: none;
     color: #3399ff;
 }
-
-.menu-two {
+/*//////// MENU SECUNDARIO //////////*/
+.menu2 {
     text-align: center;
-    margin-top: 70px; 
+    margin-top: 70px;
 }
-
-.menu-two a {
+.menu2 a {
     margin: 0 20px;
     text-decoration: none;
     color: #848484;
-
-    
 }
-
-.cabecera {
-    display: block;
-    margin: 20px auto; 
-}
-
-figcaption {
+.figcaption {
     text-align: center;
     font-style: italic;
     color: #666;
+    margin-bottom: 7px;
 }
-
-main {
+main { /*////// ESTRECHO DEL BLOG ////*/
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
     background-color: #faf7f7;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); 
 }
-
-main h1 {
+.fecha-articulo{
+    color:#d5d6d6;
+}
+main h1 { /*////TITULO LLAMATIVO DEL PRIMER ARTICULO ////*/
     font-family: "Corsiva";
     font-size: 35px;
     width: 90%;
@@ -86,75 +75,48 @@ main h1 {
     color: #848484;
     margin-bottom: 20px;
 }
-
 main p {
     line-height: 1.5;
     margin-bottom: 20px;
-
 }
-
-main img {
+main img { /*////IMAGENES DE LOS ARTICULOS////*/
     display: block;
     margin: 20px auto;
     max-width: 100%;
     height: auto;
 }
-
-.hat{
-    display: float;
-    float:100%;
-    float:left;
-}
-.left{
-    display:float;
+.colum{
     float:left;
     width:65%;
-    
 }
 .boot{
     clear:both;
-    
-    
 }
-
-aside{
-    display:float;
+aside{ /*///ASIDE CONTENIDO SECUNDARIO ///*/
     float:right;
     width:30%;
-    
-    float:right;
-    
 }
-
 #titulo-secundario-lista {
     background-color: #eda0c7;
     color: #d93d8b;
     text-align: center;
-    
-    
 }
 .lista-articulos li {
     display: flex; 
     align-items: center;
     margin-bottom: 15px; }
-
-    .img-aside {
-        width: 50px; 
-        height: 50px; 
-        margin-right: 10px; 
+.img-aside {
+    width: 50px; 
+    height: 50px; 
+    margin-right: 10px; 
     }
-
 hr {
     border: none;
     border-top: solid 1px #ccc;
     margin: 40px 0;
 }
-
 .p-blog {
     text-align: center;
-}
-.date-custom{
-    color:#d5d6d6;
 }
 body main b {
     font-weight: bold;
@@ -167,20 +129,17 @@ li {
     background-color : #eda0c7;
     color: #d93d8d;
 }
-
 .menu3 {
     justify-content: space-between;
     display: flex;
 }
-#avioncito {
+#avioncito { /*//Boton para subir al inicio //*/ 
     position: fixed;
     bottom: 10px;
     right: 10px;
 }
-
 #cotologo-date {
     color: #3399ff;
-    text-align: center;
-}
+    text-align: center;}
 
 
